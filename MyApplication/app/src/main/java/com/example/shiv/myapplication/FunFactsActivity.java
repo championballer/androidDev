@@ -46,6 +46,7 @@ public class FunFactsActivity extends AppCompatActivity {
                 mFactTextView.setText(fact);
                 int color = colorDir.getColor();
                 layout.setBackgroundColor(color);
+                mShowFactButton.setTextColor(color);
             }
         };
 
